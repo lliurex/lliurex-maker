@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: lliurex-maker
-Source: <url://example.com>
+Source: http://svn.lliurex.net/bionic
 
 Files: *
 Copyright: 2018 Raul Rodrigo Segura <raurodse@gmail.com>
