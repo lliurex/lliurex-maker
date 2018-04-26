@@ -18,5 +18,6 @@ ISO_VOLUME="$DISTRIBUTION_NAME $SUITE $(date +%Y%m%d-%H:%M)"
 PACKAGE_KEYRING="lliurex-keyring"
 LIVE_PACAKGES=('lliurex-meta-live')
 ENABLE_I386="true"
+BOOTAPPEND_LIVE="username=lliurex"
 #NOW
 #KERNEL_FLAVOURS
