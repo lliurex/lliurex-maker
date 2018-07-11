@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+name_hook=$(basename ${0})
+
+echo "Begin executing hook $name_hook" 
+
+installed=$(dpkg -l|grep lliurex-meta-live|wc -l)
+
+if [ "x$installed" = "x1" ];then
+    dpkg --purge lliurex-meta-live
+fi
+
+echo "End executing hook $name_hook"
+
