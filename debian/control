@@ -8,6 +8,6 @@ Homepage: http://lliurex.net
 
 Package: lliurex-maker
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, isomaker, syslinux-themes-lliurex, lliurex-preseed-common
+Depends: ${shlibs:Depends}, ${misc:Depends}, isomaker
 Description: Data package for build lliurex-iso
  Configuration files from lliurex and flavours
