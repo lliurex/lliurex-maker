@@ -1,0 +1,9 @@
+Codename: ${SUITE}
+Suite: ${SUITE}
+Version: 16
+Origin: LliureX
+Label: LliureX
+Description: LliureX Distribution Packages
+Architectures: i386 amd64
+Components: main 
+Update: - ${SUITE} ${SUITE}-updates ${SUITE}-security

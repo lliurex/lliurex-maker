@@ -1,0 +1,23 @@
+#INTERACTIVE=true
+SUITE="focal"
+MIRROR="http://lliurex.net/$SUITE"
+MIRRORDEFAULT="http://lliurex.net/$SUITE"
+#KERNEL_PACKAGES
+#ARCH
+
+DISTRIBUTION_VERSION="21"
+DISTRIBUTION_NAME="LliureX"
+DEFAULTVERSION="$DISTRIBUTION_VERSION"
+
+SYSLINUX_THEME="ubuntu-xenial"
+ISO_VOLUME="$DISTRIBUTION_NAME $SUITE $(date +%Y%m%d-%H:%M)"
+
+#BINARYFORMAT
+#COMPONENTS
+#INITRAMFS_COMPRESSION
+PACKAGE_KEYRING="lliurex-keyring"
+LIVE_PACKAGES='lliurex-meta-live'
+ENABLE_I386="true"
+#BOOTAPPEND_LIVE="username=valentin hostname=lliurex timezone=Europe/Madrid utc=yes"
+#NOW
+#KERNEL_FLAVOURS

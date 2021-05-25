@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 deb http://lliurex.net/xenial xenial main restricted universe multiverse preschool
 deb http://lliurex.net/xenial xenial-updates main restricted universe multiverse preschool
 deb http://lliurex.net/xenial xenial-security main restricted universe multiverse preschool
+=======
+deb http://lliurex.net/xenial/ xenial main restricted universe multiverse preschool
+deb http://lliurex.net/xenial/ xenial-updates main restricted universe multiverse preschool
+deb http://lliurex.net/xenial/ xenial-security main restricted universe multiverse preschool
+>>>>>>> master
